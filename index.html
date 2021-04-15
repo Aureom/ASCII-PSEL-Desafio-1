@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<header>
+    <img class="logo" src="assets/logo-ascii.png" alt="logo empresa junior ascii">
+    <a href="#about">Sobre Você</a>
+    <a href="#knowledge">Conhecimentos</a>
+    <a href="#contact">Contato</a>
+</header>
+
+<main>
+    <div id="about">
+        <h1>Sobre você</h1>
+        <div class="about">
+            <img class="about-pic" src="assets/eu.jpg" alt="face de Kaio Augusto de Souza"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+    </div>
+
+    <div class="knowledge" id="knowledge">
+        <h1>Conhecimentos</h1>
+        <div class="knowledges-box">
+            <div class="knowledges-selectors">
+                <button id="btn-1" onclick="changeKnowledge(1)">Educação</button>
+                <button id="btn-2" onclick="changeKnowledge(2)">Habilidades</button>
+                <button id="btn-3" onclick="changeKnowledge(3)">Soft Skills</button>
+            </div>
+            <div class="knowledges-text">
+                <div id="knowledge-1" style="display: none">
+                    <ul>
+                        <li>Estudo Ciencia da computação na UFU, 7periodo</li>
+                        <li>Certificado de Ingles avancado</li>
+                        <li>Certificado de maratona de programção</li>
+                    </ul>
+                </div>
+
+                <div id="knowledge-2" style="display: none">
+                    <ul>
+                        <li>C</li>
+                        <li>Java: conhecumento médio, já utilizei em trabalhos para faculdade</li>
+                        <li>JavaScript: conhecimentos avançado, utilizei em projetos com nodejs, express</li>
+                        <li>Banco de Dados</li>
+                    </ul>
+                </div>
+
+                <div id="knowledge-3" style="display: none">
+                    <ul>
+                        <li>Trabalho em grupo</li>
+                        <li>Comunicativo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h1>Contato</h1>
+        <div class="contact">
+            <img class="contact-img" src="assets/agenda.png" alt="agenda"/>
+            <div>
+                <p>Email: kaioaugusto02@gmail.com</p>
+                <p>Telefone: (35) 99858-0546</p>
+                <p>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/kaio-souza/">Clique para ir</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Desenvolvido com <img class="heart" src="assets/heart.svg" alt="coração"> por Kaio Souza</p>
+</footer>
+
+</body>
+</html>
